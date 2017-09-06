@@ -1,0 +1,30 @@
+{
+    "name": "jshannon63/laravel-baton",
+    "description": "Share named routes and other collection data to Javascript from your Laravel Blade views",
+    "keywords": ["laravel", "javascript", "routes", "view", "vue"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jim Shannon",
+            "email": "jim@hltky.com",
+            "homepage": "https://jimshannon.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jshannon63\\Baton\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Jshannon63\\Baton\\BatonServiceProvider"
+            ]
+        }
+    }
+}
