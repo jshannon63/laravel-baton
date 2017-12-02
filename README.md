@@ -3,6 +3,9 @@
 
 
 Baton registers a global view composer which will enable passing of the Baton collection to all views. The Baton collection contains all named routes (optional) as well as any additional values you wish to add to the collection prior to rendering the view.
+  
+If you are looking for a more flexible package which is specifically designed to pass only named routes to the client I would 
+recommend [tightenco/ziggy](https://github.com/tightenco/ziggy). It gives many more options for that function. Baton is a good choce when you would like the flexibility of working with collections and quickly/easily passing that data to javascript.
 ## Installation
 ```
 composer require jshannon63/laravel-baton
