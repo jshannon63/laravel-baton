@@ -4,9 +4,10 @@
 
 Baton registers a global view composer which will enable passing of the Baton collection to all views. The Baton collection contains all named routes (optional) as well as any additional values you wish to add to the collection prior to rendering the view.
 ## Installation
-
-1. Add Baton to your composer.json file: `composer require jshannon63/laravel-baton`
-2. Laravel 5.5 will automatically take care of the service provider registration.
+```
+composer require jshannon63/laravel-baton
+```
+Laravel 5.5+ will automatically take care of the service provider registration.
 
 
 ## Usage
